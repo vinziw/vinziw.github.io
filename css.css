@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, sans-serif;
+    background-color: white;
+}
+
+h1{
+    font-weight: bold; 
+    font-family: Verdana, sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+h3{
+    font-weight: bold; 
+    font-family: Verdana, sans-serif;
+}
+
+h4{
+    font-weight: bold;   
+    font-family: Verdana, sans-serif;
+}
+
+h5{
+    font-weight: bold;  
+    font-family: Verdana, sans-serif;
+}
+
+h6{
+    font-weight: bold;    
+    font-family: Verdana, sans-serif;
+}
+
+.dropbtn {
+    background-color: transparent;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    color: #8a9a51;
+    text-decoration: none;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    z-index: 5;
+
+}
+
+.dropdwon a {
+    
+    
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 12px;
+    padding: 0px 20px 0px 20px;
+    
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: darkslategrey;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #efd281;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: transparent; /*#3e8e41;*/
+    text-decoration: underline;
+}
+
+#more-arrow{
+    width: 20px;
+}
+
+.img-container { 
+
+    position: relative; /*absolute*/
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-content: center;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 400px;
+    width: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text{
+    padding-top: 320px;
+    font-size: 40px;
+    text-align: center;
+    color: #8a9a51;
+    
+    
+}
+
+
+.background{
+    
+    background-color: #F7F7F7;
+    height: inherit;
+    margin: 30px 100px 0px 100px;
+    height: 900px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    text-align: center;
+    font-size: 26px;    
+    
+}
+
+.list{
+    margin: 30px 400px 0px 400px;
+}
+
+#youtube{
+    padding-top: 40px;
+    
+}
+
+#weinText{
+    margin-top: 100px;
+    text-align: justify-all;
+    padding: 30px 90px 0px 90px;
+
+}
+
+#wiki{
+    padding-top: 40px;
+    height: 150px;
+}
+
+
